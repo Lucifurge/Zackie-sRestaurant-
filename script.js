@@ -24,7 +24,7 @@
 
     const subject = `New Inquiry from ${name}`;
     const body = `Full Name: ${name}%0DEmail: ${email}%0D%0DMessage:%0D${message}`;
-    const mailtoLink = `mailto:zackiesrestaurantph@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:tasogaresaya@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
     window.location.href = mailtoLink;
   });
