@@ -1,0 +1,71 @@
+/* Venue Section Styling */
+#booking {
+  padding: 80px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+#booking h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #F1A10A;
+  margin-bottom: 20px;
+}
+
+#booking .card {
+  border: none;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+#booking .card:hover {
+  transform: translateY(-10px);
+}
+
+#booking .card-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#booking .card-text {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 8px;
+}
+
+#booking .card-text strong {
+  color: #F1A10A;
+  font-size: 1.1rem;
+}
+
+#booking .btn-primary {
+  background-color: #F1A10A;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 30px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#booking .btn-primary:hover {
+  background-color: #d68b00;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #booking h2 {
+    font-size: 2rem;
+  }
+
+  #booking .card-title {
+    font-size: 1.2rem;
+  }
+
+  #booking .card-text {
+    font-size: 0.95rem;
+  }
+}
