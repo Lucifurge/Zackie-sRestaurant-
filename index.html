@@ -31,31 +31,36 @@
               <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
               <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
               <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-    <!-- Hero Section with Slideshow -->
-    <section class="gallery">
-        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="1.jpg" class="d-block w-100" alt="Venue View" loading="lazy">
-                </div>
-                <div class="carousel-item">
-                    <img src="2.jpg" class="d-block w-100" alt="Food Photography" loading="lazy">
-                </div>
-                <div class="carousel-item">
-                    <img src="3.jpg" class="d-block w-100" alt="Buffet Setup" loading="lazy">
-                </div>
+<!-- Hero Section with Slideshow -->
+<section class="gallery">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="1.jpg" class="d-block w-100" alt="Venue View" loading="lazy">
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
+            <div class="carousel-item">
+                <img src="2.jpg" class="d-block w-100" alt="Food Photography" loading="lazy">
+            </div>
+            <div class="carousel-item">
+                <img src="3.jpg" class="d-block w-100" alt="Buffet Setup" loading="lazy">
+            </div>
         </div>
-        <div class="hero-overlay position-absolute top-50 start-50 translate-middle text-center text-white">
-            <h1 class="display-4 fw-bold">Zackie’s Restaurant</h1>
-            <p class="lead">Where every meal is a memory made golden.</p>
-          <!-- Modal for Google Maps -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    
+    <div class="hero-overlay position-absolute top-50 start-50 translate-middle text-center text-white">
+        <h1 class="display-4 fw-bold">Zackie’s Restaurant</h1>
+        <p class="lead">Where every meal is a memory made golden.</p>
+        <button class="btn btn-warning mt-3" data-bs-toggle="modal" data-bs-target="#mapModal">Find Us in Cabadbaran City</button>
+    </div>
+</section>
+
+<!-- Modal for Google Maps -->
 <div class="modal fade" id="mapModal" tabindex="-1" aria-labelledby="mapModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
