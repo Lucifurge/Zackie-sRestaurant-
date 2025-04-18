@@ -54,7 +54,6 @@
   </div>
 </section>
 
-<!-- Booking Form Section -->
 <section class="py-5 bg-light" id="booking">
     <div class="container" data-aos="fade-up">
       <h2 class="text-center text-warning mb-4">Book Our Catering Services</h2>
@@ -71,21 +70,11 @@
             </div>
             <div class="mb-3">
               <label for="subject" class="form-label">Subject</label>
-              <input type="text" class="form-control" id="subject" placeholder="Event Type or Inquiry" required />
+              <input type="text" class="form-control" id="subject" placeholder="Contact:" required />
             </div>
             <div class="mb-3">
               <label for="message" class="form-label">Message</label>
-              <!-- Default text inside textarea with a fixed structure -->
-              <textarea class="form-control" id="message" rows="8" readonly style="background-color: #f9f9f9;">
-  Address: ___________________________
-  Time: ___________________________
-  Date: ___________________________
-  Buffet Theme: ___________________________
-  Menu: ___________________________
-  Dessert: ___________________________
-  Add-on (e.g., Table & Chairs): ___________________________
-  Request (e.g., Extra table, Extra cloth): ___________________________
-              </textarea>
+              <textarea class="form-control" id="message" rows="10" required></textarea>
             </div>
             <div class="text-center">
               <button type="submit" class="btn btn-warning">Submit Booking</button>
@@ -96,6 +85,22 @@
     </div>
   </section>
   
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const messageBox = document.getElementById("message");
+      messageBox.value =
+  `Address: 
+  Time: 
+  Date: 
+  Buffet theme: 
+  Menu: 
+  Dessert: 
+  Add-on: (e.g., Table & Chairs)
+  Request: (e.g., extra table, extra cloth)`;
+    });
+  </script>
+</section>
+
 <!-- Footer -->
 <footer class="bg-dark text-white py-3">
   <div class="container text-center">
