@@ -1,44 +1,46 @@
+
 footer {
-  background-color: #fff; /* White background */
-  border-top: 5px solid #FFB302; /* Gold border at the top */
-  border-bottom: 5px solid #FFB302; /* Gold border at the bottom */
-  color: #333; /* Dark text color */
-  padding: 20px 0; /* Reduced padding for a more compact footer */
-  text-align: center; /* Center the content */
-}
-
-footer p {
-  font-size: 14px; /* Smaller text for the footer */
-  margin-bottom: 10px; /* Slight margin to avoid text being too close to other content */
-}
-
-footer a {
-  color: #FFB302; /* Gold color for links */
-  text-decoration: none;
-  font-weight: bold;
-}
-
-footer a:hover {
-  color: #e6a800; /* Darker gold on hover */
-}
-
-footer .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 5px; /* Reduced gap between items */
-}
-
-footer .social-icons {
-  margin-top: 10px; /* Adjusted the spacing between text and social icons */
-}
-
-footer .social-icons a {
-  margin: 0 8px; /* Adjusted margin to reduce space between icons */
-  font-size: 18px; /* Slightly smaller icon size */
-}
-
-footer .social-icons a:hover {
-  color: #e6a800; /* Change color on hover */
-}
+    background-color: #fff; /* White background */
+    border-top: 3px solid #FFB302; /* Gold border at the top */
+    border-bottom: 2pxpx solid #FFB302; /* Gold border at the bottom */
+    color: #333; /* Dark text color */
+    padding: 20px 0; /* Reduced padding for a more compact footer */
+    text-align: center; /* Center the content */
+  }
+  
+  footer p {
+    font-size: 14px; /* Smaller text for the footer */
+    margin-bottom: 5px; /* Slight margin to avoid text being too close to other content */
+  }
+  
+  footer a {
+    color: #FFB302; /* Gold color for links */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    color: #e6a800; /* Darker gold on hover */
+  }
+  
+  footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px; /* Reduced gap between items */
+  }
+  
+  footer .social-icons {
+    margin-top: 10px; /* Adjusted the spacing between text and social icons */
+  }
+  
+  footer .social-icons a {
+    margin: 0 8px; /* Adjusted margin to reduce space between icons */
+    font-size: 18px; /* Slightly smaller icon size */
+  }
+  
+  footer .social-icons a:hover {
+    color: #e6a800; /* Change color on hover */
+  }
+  
