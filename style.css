@@ -1,57 +1,43 @@
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #fff;
-  color: #333;
-}
-
-.hero-section {
-  position: relative;
-}
-
-.hero-section img {
-  height: 100vh;
-  object-fit: cover;
-  filter: brightness(60%);
-}
-
-.hero-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 0 2rem;
-  z-index: 2;
-}
-
-.btn-warning,
-.btn-outline-warning {
-  border-radius: 30px;
-  font-weight: 600;
-}
-
 footer {
-  background-color: #1a1a1a;
+  background-color: #fff; /* White background */
+  border-top: 5px solid #FFB302; /* Gold border at the top */
+  border-bottom: 5px solid #FFB302; /* Gold border at the bottom */
+  color: #333; /* Dark text color */
+  padding: 40px 0; /* Add some padding */
+  text-align: center; /* Center the content */
 }
 
-.navbar-nav .nav-link {
-  color: #333;
-  font-weight: 500;
+footer p {
+  font-size: 14px; /* Smaller text for the footer */
 }
 
-.navbar-nav .nav-link:hover {
-  color: #FFB302;
+footer a {
+  color: #FFB302; /* Gold color for links */
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.text-warning {
-  color: #FFB302 !important;
+footer a:hover {
+  color: #e6a800; /* Darker gold on hover */
 }
 
-.bg-light {
-  background-color: #f9f9f9 !important;
+footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer .social-icons {
+  margin-top: 15px;
+}
+
+footer .social-icons a {
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+footer .social-icons a:hover {
+  color: #e6a800; /* Change color on hover */
 }
